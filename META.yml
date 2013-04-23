@@ -1,0 +1,39 @@
+---
+abstract: 'It is a Template::Toolkit View module for Cot framework.'
+author:
+  - 'Yusuke Shibata <shibata@yusukeshibata.jp>'
+build_requires:
+  Cot: 0
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.0.53, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Cot-Plugin-TT
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+provides:
+  Cot::Plugin::TT:
+    file: lib/Cot/Plugin/TT.pm
+    version: 0.01
+requires:
+  Template: 0
+  parent: 0
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/yusukeshibata/Cot-Plugin-TT/issues
+  homepage: https://github.com/yusukeshibata/Cot-Plugin-TT
+  repository: git://github.com/yusukeshibata/Cot-Plugin-TT.git
+version: 0.01
